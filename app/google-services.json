@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "485229097043",
+    "project_id": "activefit-d8d41",
+    "storage_bucket": "activefit-d8d41.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485229097043:android:bf5c7ac89c28c9afc156a6",
+        "android_client_info": {
+          "package_name": "com.example.activefit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBhiM-WNm5_eL_UbN_Df-FTNp_VzrEubs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

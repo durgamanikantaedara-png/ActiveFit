@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".editprofilefrag"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="18dp"
+            android:textColor="#070606"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="3dp"
+            android:text="Enter your name:"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        android:layout_marginLeft="25dp"
+        app:endIconCheckable="true"
+        app:endIconMode="clear_text"
+            app:hintTextColor="@color/black"
+        app:startIconCheckable="true"
+            app:startIconTint="@color/black"
+        app:startIconDrawable="@drawable/profileinner">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:maxLength="26"
+            android:padding="20dp">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter your height:(in cm's)"
+    android:textColor="@color/black"
+    android:layout_marginBottom="3dp"
+    android:layout_marginLeft="25dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        app:startIconCheckable="true"
+        app:hintTextColor="@color/black"
+        app:startIconTint="@color/black"
+        app:startIconDrawable="@drawable/man">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:padding="20dp"
+            android:id="@+id/etHeight"
+            android:inputType="numberDecimal">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/black"
+        android:text="Enter your weight:"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="25dp"
+        app:startIconCheckable="true"
+        app:startIconTint="@color/black"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/stand">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/etWeight"
+            android:inputType="number">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="3dp"
+            android:text="Enter your Daily step goal:"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="Steps"
+            android:layout_marginBottom="20dp"
+            app:hintTextColor="@color/black"
+            android:layout_marginLeft="25dp"
+            app:startIconTint="@color/black"
+            app:startIconDrawable="@drawable/foot">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:id="@+id/etStepGoal"
+                android:inputType="number">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="3dp"
+            android:text="Enter your Daily Calorie goal:"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="Calories"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            app:hintTextColor="@color/black"
+            app:startIconTint="@color/black"
+            app:startIconCheckable="true"
+            app:startIconDrawable="@drawable/cll">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:id="@+id/etCalorieGoal"
+                android:inputType="number">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:id="@+id/btnSave"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#067DF4"
+            android:textSize="15dp"
+            android:padding="15dp"
+            android:layout_marginLeft="15dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
